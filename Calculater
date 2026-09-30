@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main () {
+    printf("Hello this code was created by the SHLOK GUPTA right now it can do simple calculation only but after some time it will solve any kind of mathes and physics problem. \n");
+    printf("Enter the first value = ");
+    float a;
+    scanf("%f",&a);
+    printf("Enter the second value = ");
+    float b;
+    scanf("%f",&b);
+    float sum = a+b;
+    printf("Addtion answer is = %f", sum);
+}
