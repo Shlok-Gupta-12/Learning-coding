@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    printf("Let's find the fractional part of any number.\n");
+    printf("write the fractonal value : ");
+    float x;
+    scanf("%f",&x);
+    int y;
+    y = x;
+    float z = x - y;
+    printf("The fractional part of the given value is : %f",z);
+    return 0;
+}
