@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main (){
+    printf("To find the Year is Leap or not.");
+    printf("\nWrite the year : ");
+    float x;
+    scanf("%f",&x);
+    int y;
+    y = x;
+    float z = x - y;
+        if(z==0){
+            if(y%4==0){
+            printf("It is Leap Year");
+            }
+            else{
+                printf("It is not the Leap Year");
+            }
+        }
+        else{
+            printf("Sorry the Year does not counsider.");
+        }
+    return 0;
+}
