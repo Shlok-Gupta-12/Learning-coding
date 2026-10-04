@@ -13,11 +13,14 @@ int main(){
         x = s - c;
         printf("Your loss is : %f ", x);
     }
-    else{
+    if(s>c){
         printf("You are in the prifit.\n");
         float y;
         y = s - c;
         printf("Your profit is : %f", y);
+    }
+    if(s==c){
+        printf("You are neither in the profit/loss.");
     }
     return 0;
 }
