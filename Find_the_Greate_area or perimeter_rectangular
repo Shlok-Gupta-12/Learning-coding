@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    printf("Let's find which is gerater Area or Perimeter of the Rectangular.\n");
+    printf("Enter the Length : ");
+    float l;
+    scanf("%f", &l);
+    printf("Enter the Breath : ");
+    float b;
+    scanf("%f", &b);
+    float A;
+    A = l*b;
+    printf("The Area is : %f", A);
+    float P;
+    P = 2*(l+b);
+    printf("\nThe Perimeter is : %f", P);
+    if(A>P){
+        printf("\nThe area is gerater then perimeter.");
+    }
+    if(A==P){
+        printf("\nThe area and perimeter are equal.");
+    }
+    if(A<P){
+        printf("\nThe perimeter is gerater then area.");
+    }
+    return 0;
+}
