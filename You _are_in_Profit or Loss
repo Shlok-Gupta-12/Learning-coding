@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    printf("Let's find how much profit/loss you made.\n");
+    printf("Selling Price : ");
+    float s;
+    scanf ("%f", &s);
+    printf("Cost Price : ");
+    float c;
+    scanf ("%f", &c);
+    if (s<c){
+        printf("You are in the loss.\n");
+        float x;
+        x = s - c;
+        printf("Your loss is : %f ", x);
+    }
+    else{
+        printf("You are in the prifit.\n");
+        float y;
+        y = s - c;
+        printf("Your profit is : %f", y);
+    }
+    return 0;
+}
