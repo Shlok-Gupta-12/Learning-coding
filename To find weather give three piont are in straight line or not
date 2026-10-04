@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main (){
+    printf("To find the given three points x1,y1,x2,y2,x3,&y3 are lie in the straight line or not.\n");
+    double x1,y1,x2,y2,x3,y3;
+    printf("Enter the value of x1 : ");
+    scanf("%lf",&x1);
+    printf("Enter the value of y1 : ");
+    scanf("%lf",&y1);
+    printf("Enter the value of x2 : ");
+    scanf("%lf",&x2);
+    printf("Enter the value of y2 : ");
+    scanf("%lf",&y2);
+    printf("Enter the value of x3 : ");
+    scanf("%lf",&x3);
+    printf("Enter the value of y3 : ");
+    scanf("%lf",&y3);
+    double m1,m2;
+    m1 = (y2-y1)/(x2-x1);
+    m2 = (y3-y2)/(x3-x2);
+        if(m1==m2)
+            printf("All points lie in the straight line.");
+        else
+            printf("All points are not lie in the straight line.");
+    return 0;
+}
