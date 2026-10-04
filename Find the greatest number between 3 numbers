@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main (){
+    printf("Let's find the greatest number between three numbers.");
+    printf("\nEnter the 1st number : ");
+    float x;
+    scanf("%f",&x);
+    printf("Enter the 2nd number : ");
+    float y;
+    scanf("%f",&y);
+    printf("Enter the 3rd number : ");
+    float z;
+    scanf("%f",&z);
+    if(x>y && x>z)
+        {
+            printf("The 1st number is greatest");
+        }
+    if(y>x && y>z)
+        {
+            printf("The 2nd number is greatest");
+        }
+    if(z>y && z>x)
+        {
+            printf("The 3rd number is greatest");
+        }
+    return 0;
+}
