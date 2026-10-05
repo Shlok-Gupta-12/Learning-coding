@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main(){
+    printf("Find the given coordinate are lie in which quadrant and axis.");
+    float x,y;
+    printf("\nEnter the x coordinate : ");
+    scanf("%f", &x);
+    printf("Enter the y coordinate : ");
+    scanf("%f", &y);
+    printf("The given coordinate is : (%f,%f)", x , y);
+    if(x==0 && y==0){
+        printf("\nThe coordinate are in the origine.");
+    }
+    else if(x==0 && y!=0){
+        printf("\nThe coordinate are in the y-axis.");
+    }
+    else if(x!=0 && y==0){
+        printf("\nThe coordinate are in the x-axis.");
+    }
+    else if(x>0 && y>0){
+        printf("\nWhich are lie in the 1st Quadrant.");
+    }
+    else if(x<0 && y>0){
+        printf("\nWhich are lie in the 2nd Quadrant.");
+    }
+    else if(x<0 && y<0){
+        printf("\nWhich are lie in the 3rd Quadrant.");
+    }
+    else if(x>0 && y<0){
+        printf("\nWhich are lie in the 4th Quadrant.");
+    }
+    return 0;
+}
