@@ -1,4 +1,13 @@
-#include <stdio.h>
-int main () {
-    printf("Hello");
+#include<stdio.h>
+int main (){
+    printf("Enter the first number : ");
+    float a;
+    scanf("%f",&a);
+    printf("Enter the second number : ");
+    float b;
+    scanf("%f",&b);
+    float c;
+    c = a+b;
+    printf("The addition of two number is : %f", c);
+    return 0;
 }
